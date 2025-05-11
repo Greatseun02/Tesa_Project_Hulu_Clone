@@ -1,0 +1,227 @@
+/* global style for landing page */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #0b0c10;
+    color: #fff;
+}
+
+/* navigation style */
+
+.login{
+    display: none;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1.75rem 0 ;
+}
+
+.ham{
+    color: #fff;
+    background-color: gray;
+    width: fit-content;
+    height: fit-content;
+    padding: 14px 18px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: auto;
+    background-color: #313743;
+    color: white;
+}
+
+@media (min-width: 64rem) {
+    .login{
+        display: flex;
+        padding: 20px;
+        border-radius: 5px;
+        margin-left: auto;
+        width: fit-content;
+    }
+
+    .ham{
+        display: none !important;
+    }
+}
+
+
+
+
+/* hero style */
+
+.hero-logo{
+    color: #1CE783;
+    font-size: 22px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 800;
+}
+
+.hero-main{
+    margin-top: 28px;
+    text-align: center;
+    padding: 16px 20px 16px;
+    display: grid;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, auto);
+    grid-column-gap: 16px;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    -webkit-align-items: flex-start;
+    -moz-box-align: start;
+    align-items: flex-start;
+    text-align: center;
+}
+
+
+.hero-main .btn{
+    margin: 0 auto;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    margin-top: 8px;
+    color: #0b0c0f;
+    background: #1ce783;
+    width: 100%;
+
+}
+
+
+.hero-main img{
+    margin: 12px auto;
+    width: 60%;
+    max-width: 330px;
+}
+
+.hero-main p{
+    font-size: 12px;
+    font-weight: 600;
+    color: #00ED82;
+    letter-spacing: .6px;
+    line-height: 1
+}
+
+.hero-main h2{
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.32;
+}
+
+.hero-main .link{
+ margin-top: 8px;
+ font-size: 14px;
+ color: white;
+}
+
+.hero-main{
+    display: grid;
+    align-items: center;
+}
+
+
+.hero{
+    width: 100%;
+    position: relative;
+    padding:16px 0px 32px;
+    color: white;
+     background:
+        /* Linear black overlay (top to transparent) */
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%),
+        
+        /* Background image */
+        url("../../images/hulu-hero-sm.jpeg") no-repeat center center / cover,
+        
+        /* Radial gradient (shows behind the image) */
+        radial-gradient(circle at 20% 95%, #056877, #051828 96%);
+  
+  /* Other settings */
+    background-blend-mode: normal;
+    background-size: 100%;
+}
+
+
+
+
+@media (min-width:440px) {
+    .hero{
+        background: 
+        /* Linear black overlay (top to transparent) */
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%),
+        
+        /* Background image */
+        url("../../images/hulu-hero-md.jpeg") no-repeat center center / cover,
+        
+        /* Radial gradient (shows behind the image) */
+        radial-gradient(circle at 20% 95%, #056877, #051828 96%);        background-size: 100%;
+    }
+}
+
+
+@media (min-width:768px) {
+
+    .hero-main{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero{
+        padding: 24px 0px 64px; 
+    }
+
+    .hero-main{
+        width: fit-content;
+        padding-top: 52px;
+        max-width: 720px;
+    }
+}
+
+@media (min-width:1024px) {
+   .hero{
+    padding-bottom: 80px;
+   }
+
+   .hero-main h2{
+    font-size: 24px;
+   }
+}
+
+@media (min-width:1280px) {
+    .hero{
+        background: 
+        /* Linear black overlay (top to transparent) */
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%),
+        
+        /* Background image */
+        url("../../images/hulu-hero-lg.jpeg") no-repeat center center / cover,
+        
+        /* Radial gradient (shows behind the image) */
+        radial-gradient(circle at 20% 95%, #056877, #051828 96%);
+        background-size: 100%;
+    }
+}
+
+
+
+
+
+/* custom style */
+

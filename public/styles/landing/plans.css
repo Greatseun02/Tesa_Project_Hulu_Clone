@@ -1,0 +1,326 @@
+.bundle-cta{
+    background: linear-gradient(318.68deg,#0f495c,#0d3640 49.72%,#08141f);
+    padding: 28px 10px 28px 20px;
+    text-align: center;   
+}
+
+.bundle-cta .title{
+    color: #00ED82;
+    font-size: 12px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+}
+
+.bundle-cta img{
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 4px;
+}
+
+.bundle-cta h2{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.bundle-cta h2 a{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.bundle-cta .action-links-div{
+    display: grid;
+}
+
+.bundle-cta .action-links-div .action-link{
+    background-color: #1de783;
+    border-radius: 4px; 
+    padding:0 28px;  
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    color: black; 
+    width: fit-content; 
+    margin: 0 auto 3px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.bundle-cta .action-links-div .terms{
+    text-decoration: underline; 
+    font-size: 10px;
+    opacity: 0.7;
+    color: white;
+}
+
+
+.bundle-cta .action-links-div a{
+    width: 100%;
+}
+
+.bundle-cta .title-md{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .bundle-cta{
+        padding-top: 28px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .bundle-cta .content-div{
+        align-items: center;
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }  
+    
+    .bundle-cta .content-div .text-content{
+        text-align: left;
+        flex: 4;
+        display: grid;
+        gap: 8px;
+    }
+
+    .bundle-cta .title-sm{
+        display: none;
+    }
+
+    .bundle-cta .title-md{
+        display: block;
+        font-size: 12px;
+    }
+
+    .bundle-cta h2{
+        font-size: 24px;
+        line-height: 1.4;
+    }
+
+    .bundle-cta .action-links-div{
+       flex: 3;
+       justify-content: end;
+    }
+
+    .bundle-cta h2 a{
+        display: block;
+    }
+}
+
+@media (min-width:1024px) {
+    .bundle-cta .text-content{
+        flex: 7;
+    }   
+
+    .bundle-cta .action-links-div{
+       flex: 2;
+    }
+
+    .bundle-cta {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .bundle-cta .content-div{
+        gap: 64px;
+    }
+}
+
+
+@media (min-width:1280px) {
+    .bundle-cta .content-div{
+        gap: 80px;
+    }
+
+    .bundle-cta {
+        padding-left: 80px;
+        padding-right: 64px;
+    }
+    
+}
+
+
+/* build your plan style */
+.start-building{
+    background:linear-gradient(180deg, #29A869 0.66%, #16181D 99.34%);
+    text-align: center; 
+    padding: 30px 20px; 
+    display: grid;  
+    row-gap: 22px; 
+}
+
+.start-building h2{
+    padding: 0 22px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.32;
+    text-transform: uppercase;
+}
+
+.start-building button{
+    border: 2px solid white;
+    padding: 0 22px;
+    overflow: hidden;
+    height: 48px;
+    border-radius: 4px;
+    min-width: 64px;
+    width: fit-content;
+    margin: auto;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    width: 178px;
+}
+
+@media (min-width: 768px) {
+
+
+    .start-building button{
+        width: 289px;
+    }
+
+    .start-building h2{
+        font-size: 18px;
+    }
+    
+}
+
+/* styles for tvshows  */
+.tv-shows .header{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.tv-shows .label{
+    color:#00ED82;
+    font-size: 12px;
+    font-weight: 500;  
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.tv-shows h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.2px;
+    margin: 16px 0 10px;
+}
+
+.tv-shows p{
+    line-height: 1.36;
+}
+
+.tv-shows main{
+  display: grid;
+  grid-template-rows: repeat(2, auto);
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; /* Tailwind's gap-3 = 12px = 0.75rem */
+  padding: 0 20px 100px;
+  max-width: 786px;
+  margin: 0 auto;
+}
+
+.tv-shows main img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.tv-shows .shows-card{
+    position: relative;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    padding: 0 0 0 0;
+}
+
+.tv-shows .shows-card .card-content{
+    display: grid;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    height: fit-content;
+    width: 100%;
+    padding: 16px;
+}
+
+.tv-shows .shows-card .card-content p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.44;
+    margin-bottom: 4px;
+}
+
+.tv-shows .shows-card .card-content h5{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 8px 0;
+}
+
+.tv-shows .shows-card .card-gradient{
+    background: linear-gradient(156.82deg,rgba(0,0,0,.6) 4.58%,transparent 69.61%),linear-gradient(24.5deg,rgba(0,0,0,.2) 4.71%,transparent 71.49%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}   
+
+.shows-card .add-ons{
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}
+
+.shows-card p{
+    font-size: 12px;
+    opacity: .75;
+}
+
+@media (min-width: 1280px) {
+    .tv-shows main{
+        padding-left: 0;
+        padding-right: 0;
+        max-width: 100%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-content: center;
+        overflow: hidden;
+        gap: 32px;
+        width: fit-content;
+    }
+
+    .tv-shows main .shows-card{
+        max-width: 311px;
+    }
+
+    .tv-shows .header h1{
+        font-size: 48px;
+    }
+
+    .tv-shows {
+        padding-top: 48px;
+    }
+
+    .tv-shows .text{
+        font-size: 16px;
+        padding-left: 250px;
+        padding-right: 250px;
+        margin-top: 32px;
+    }
+
+    .tv-shows .shows-card .card-content{
+        padding: 24px;
+    }
+
+    .tv-shows .shows-card{
+        border-radius: 16px;
+    }
+}
