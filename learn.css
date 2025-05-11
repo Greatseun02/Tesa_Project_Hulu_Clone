@@ -1,199 +1,193 @@
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  .first-section {
-    background-color: #001f3f; /* placeholder dark blue */
-    color: white;
-    padding: 20px;
-  }
-  
-  /* Navigation */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .logo {
-    color: #1ce783; /* Hulu green */
-    font-size: 1.8rem;
-    font-weight: bold;
-    margin-left: 20px;
-  }
-  
-  .login {
-    color: white;
-    font-size: 1rem;
-    margin-right: 20px;
-  }
-  
-  .hulu-logo {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px ;
-    margin-bottom: 20px;
-    padding-top: 40px;
-  }
-  
-  .text {
-    max-width: 60%;
-    margin: 0 auto;
-    text-align: center;
-  }
-  
-  .text h3 {
-    color: white;
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-  }
-  
-  .text p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    max-width: 690px;
-    width: 100%;
-    height: auto;
-    padding: 10px 0;
-    margin: 0 auto;
-  }
-  
-  
-  .pricing-options {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 30px 0;
-  }
-  
-  .plan {
-    /* background-color: rgba(255, 255, 255, 0.05); */
-    padding: 20px;
-    /* border-radius: 8px; */
-    max-width: 350px;
-    /* height: ; */
-    flex: 1 1 300px;
-    max-height: 380px;
-  }
-  
-  .plan h1 {
-    max-width: 1190px;
-    width: 100%;
-    font-size: 1.4rem;
-    margin: 10px 0;
-    text-align: center;
-  }
-  .product {
-    color: #1ce783;
-    font-size: 0.9rem;
-    margin: 10px 0;
-  }
-  
-  .plan p {
-    font-size: 1.2rem;
-    margin: 5px 0;
-  }
-  
-  
-  .strike-through {
-    text-decoration: line-through;
-  }
-  
-  .plan button {
-    background-color: #1ce783;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    width: 100%;
-    border-radius: 5px;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .plan-wrapper {
-    max-width: 350px;
-    flex: 1 1 300px;
-  }
-  
-  
-  .note {
-    text-align: center;
-    font-size: 0.9rem;
-    
-    color: gray;
-    margin-top: 10px;
-  }
-  
-  .disclaimer {
-    color: gray;
-    font-size: 0.7rem;
-    margin: 30px 0;
-    text-align: center;
-    max-width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.6;
-  }
-  
-  .disclaimer a {
-    color: #1ce783;
-    text-decoration: underline;
-  }
-  
-  .compare-plans {
-    text-align: center;
-    margin-top: 30px;
-    /* font-weight: bold; */
-  }
-  .down-arrow-container {
-    width: 60px;
-    height: 60px;
-    margin: 20px auto;
-    border: 2px solid white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
- 
-  
-  .down-arrow-icon {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .second-section {
-    background-color: red;
-  }
- 
+.first-section {
+  background-color: #001f3f;
+  color: white;
+  padding: 20px;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #1ce783;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.login {
+  color: white;
+  font-size: 1rem;
+  margin-right: 20px;
+}
+
+.hulu-logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+}
+
+.text {
+  max-width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.text h3 {
+  color: white;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.text p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 690px;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.pricing-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.plan {
+  /* background-color: rgba(255, 255, 255, 0.05); */
+  padding: 20px;
+  /* border-radius: 8px; */
+  max-width: 350px;
+  /* height: ; */
+  flex: 1 1 300px;
+  max-height: 380px;
+}
+
+.plan h1 {
+  max-width: 1190px;
+  width: 100%;
+  font-size: 1.4rem;
+  margin: 10px 0;
+  text-align: center;
+}
+.product {
+  color: #1ce783;
+  font-size: 0.9rem;
+  margin: 10px 0;
+}
+
+.plan p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+.plan button {
+  background-color: #1ce783;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.plan-wrapper {
+  max-width: 350px;
+  flex: 1 1 300px;
+}
+
+.note {
+  text-align: center;
+  font-size: 0.9rem;
+
+  color: gray;
+  margin-top: 10px;
+}
+
+.disclaimer {
+  color: gray;
+  font-size: 0.7rem;
+  margin: 30px 0;
+  text-align: center;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.disclaimer a {
+  color: #1ce783;
+  text-decoration: underline;
+}
+
+.compare-plans {
+  text-align: center;
+  margin-top: 30px;
+  /* font-weight: bold; */
+}
+.down-arrow-container {
+  width: 60px;
+  height: 60px;
+  margin: 20px auto;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.down-arrow-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.second-section {
+  background-color: #000080c2;
+}
+
 .text-section {
   align-items: center;
   justify-items: center;
   padding-top: 50px;
   color: white;
-    /* margin-bottom: 10px; */
-    /* font-size: 1.5rem; */
+  /* margin-bottom: 10px; */
+  /* font-size: 1.5rem; */
 }
-.text-section h1{
+.text-section h1 {
   font-size: 2.5rem;
   font-weight: bolder;
 }
-.text-section h3{
+.text-section h3 {
   font-size: 1rem;
   max-width: 41%;
   line-height: 1.3;
   padding: 20px 20px;
 }
-.text-div{
+.text-div {
   display: flex;
   gap: 30px;
   font-weight: bolder;
@@ -217,9 +211,9 @@
   font-weight: bolder;
 }
 
- .picture {
+.picture {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(3, 1fr);
   width: 80%;
   margin: 0 auto;
   padding-bottom: 30px;
@@ -233,43 +227,182 @@
   height: auto;
   display: block;
 }
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .picture {
-     grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
   }
-  
 }
-@media(max-width:700px){
-.picture {
-   grid-template-columns: repeat(1, 1fr); 
+@media (max-width: 700px) {
+  .picture {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
-}
-.section-works{
+.section-works {
   /* background-color: blue; */
   align-items: center;
   justify-items: center;
   padding-top: 50px;
+  padding-bottom: 70px;
 }
-.how-works{
+.how-works {
   display: flex;
   width: 80%;
   line-height: 1.3;
   gap: 20px;
 }
-.steps{
+@media (max-width: 700px) {
+  .how-works {
+    /* display: grid; */
+    /* grid-template-columns: repeat(1, 1fr); */
+  }
+}
+.steps {
   width: 40%;
   gap: 10px;
 }
-.steps h2{
+.steps h2 {
   /* font-weight: 2rem; */
-  font-size: 1.5rem;
-  max-width: 77%;
+  font-size: 1.8rem;
+  /* max-width: 100%; */
   padding-bottom: 10px;
+  text-align: center;
+  /* font-weight: bolder; */
 }
-.img-head{
+.img-head {
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
   padding-top: 20px;
+}
+.steps p {
+  text-align: center;
+}
+
+.subscription-section {
+  background-color: black;
+  padding-bottom: 40px;
+}
+
+.subscription-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0 20px;
+  background-color: black;
+  z-index: 0;
+  position: relative;
+}
+
+.subscription-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.subscription-container p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: white;
+}
+
+.bundle-wrapper {
+  position: relative;
+}
+
+.bundle-selection {
+  display: flex;
+  /* margin-left: 500px; */
+  justify-content: flex-end;
+  margin-right: 250px;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  padding: 20px 40px;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.bundle-option {
+  /* background: rgba(255, 255, 255, 0.1); */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 300px;
+  flex: 1;
+  color: white;
+}
+
+.bundle-option img {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+}
+
+.bundle-option button {
+  margin-top: 10px;
+  padding: 16px 20px;
+  background: white;
+  color: red;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-weight: bolder;
+}
+
+.bundle-note {
+  font-size: 0.6rem;
+  margin-top: 10px;
+  color: white;
+}
+
+.bundle-pricing-table {
+  max-width: 980px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 70px 50px;
+  color: white;
+}
+
+.bundle-pricing-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-top: 1px solid gray;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.bundle-pricing-row span {
+  flex: 1;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.bundle-pricing-row span:first-child {
+  text-align: left;
+  flex: 2;
+}
+
+@media (max-width: 768px) {
+  .bundle-selection {
+    flex-direction: column;
+    position: static;
+  }
+
+  .bundle-pricing-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bundle-pricing-row span {
+    text-align: left;
+    width: 100%;
+    padding: 5px 0;
+  }
 }
