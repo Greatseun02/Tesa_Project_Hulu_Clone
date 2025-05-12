@@ -285,6 +285,11 @@
     opacity: .75;
 }
 
+.tv-shows .text{
+    max-width: 100%;
+}
+
+
 @media (min-width: 1280px) {
     .tv-shows main{
         padding-left: 0;
