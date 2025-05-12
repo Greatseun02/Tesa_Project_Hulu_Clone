@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./public/styles/landing/hero.css">
     <link rel="stylesheet" href="./public/styles/landing/plans.css">
     <link rel="stylesheet" href="./public/styles/landing/live-tv.css">
-    <link rel="stylesheet" href="../Tesa_Project_Hulu_Clone/Learn-More/learnMore.css">
+    <link rel="stylesheet" href="Learn-More\learnMore.css">
+
+    <link rel="stylesheet" href="./public/styles/landing/live-variety.css">
     <script src="https://kit.fontawesome.com/23315ae06f.js" crossorigin="anonymous"></script>
     <link rel="icon" href="https://www.hulu.com/favicon.ico" type="image/x-icon">
 </head>
@@ -127,8 +129,8 @@
               <a href="#" class="inline-link">See details.</a></p>
         <a href="#" class="action-link">View Channels In Your Area →</a>
     </section>
-    <section>
-        <div>
+    <section class="live-variety">
+        <div class="live-variety-content">
             <header class="header">
                 <nav class="nav-links">
                     <a>Live Sports</a>
@@ -142,57 +144,19 @@
                     Catch your games at home or on the go. Stream live games from major college and pro leagues including the NCAA®, NBA, NHL, NFL, and more.
                 </p>
                 <div class="nfl-images">
-                    <img class="nfl-image" src="https://cnbl-cdn.bamgrid.com/assets/13aa152764ceb4047c7f902524efb09c2a56e75c95991d2eb708b97cb95c25fa/original" />
-                    <img class="nfl-image" src="https://cnbl-cdn.bamgrid.com/assets/22943c5e9e0ee02501daa440ecbc2384e5e5255b6306a4100bb49bde19b1d6ca/original" />
-                    <img class="nfl-image" src="https://cnbl-cdn.bamgrid.com/assets/1011985ada97696d9ac50c3ba59cfa50d0cebb41008519c5bbe0058f9c7fc079/original" />
-                    <img class="nfl-image" src="https://cnbl-cdn.bamgrid.com/assets/1caca943330869aaf05bf9db4adfc269ac8879fe9cee6392eba96561522d0452/original" />
-                    <img class="nfl-image" src="https://cnbl-cdn.bamgrid.com/assets/f60de36aa00ab1c9c27bc669bc2ba64e8aad13e5114dded92563d6c13b641096/original" />
+                    <div class="nfl-image"> <img src="https://cnbl-cdn.bamgrid.com/assets/13aa152764ceb4047c7f902524efb09c2a56e75c95991d2eb708b97cb95c25fa/original" /></div>
+                    <div class="nfl-image"> <img src="https://cnbl-cdn.bamgrid.com/assets/22943c5e9e0ee02501daa440ecbc2384e5e5255b6306a4100bb49bde19b1d6ca/original" /></div>
+                    <div class="nfl-image"> <img src="https://cnbl-cdn.bamgrid.com/assets/1011985ada97696d9ac50c3ba59cfa50d0cebb41008519c5bbe0058f9c7fc079/original" /></div>
+                    <div class="nfl-image"> <img src="https://cnbl-cdn.bamgrid.com/assets/1caca943330869aaf05bf9db4adfc269ac8879fe9cee6392eba96561522d0452/original" /></div>
+                    <div class="nfl-image"> <img src="https://cnbl-cdn.bamgrid.com/assets/f60de36aa00ab1c9c27bc669bc2ba64e8aad13e5114dded92563d6c13b641096/original" /></div>
                 </div>
                 <p class="comment">Live TV plan required. Regional restrictions, blackouts and additional terms apply. 
                     <a class="comment-link">See details</a></p>
             </main>
         </div>
-        <div class="tv-image-div">
-            <img class="tv-image"/> 
-        </div>
+   
     </section>
-    <section>
-        <header>
-            <h1>
-                Select Your Plan
-            </h1>
-            <p>No hidden fees, equipment rentals, or installation appointments.</p>
-            <p>Switch plans or cancel anytime.**</p>
-            <select>
-                <option>Disney+, Hulu Bundle</option>
-                <option>Disney+, Hulu, ESPN+ Bundle</option>
-                <option>Disney+, Hulu, Max Bundle</option>
-                <option>Hulu + Live TV</option>
-            </select>
-        </header>
-        <main>
-            <div>
-                <div>
-                    <img/>
-                    <p>Disney+, Hulu Bundle Basic</p>
-                    <a>$10.99 / Month</a>
-                    <p>Save 44%*</p>
-                </div>
-                <div>
-                    <img/>
-                    <p>Disney+, Hulu Bundle Basic</p>
-                    <a>$10.99 / Month</a>
-                    <p>Save 44%*</p>
-                </div>
-            </div>
-            <div>
-                <p></p>
-                <p></p>
-                <p></p>
-            </div>
-            <div>
-                
-            </div>
+    
 <section class="subscription-section">
         <div class="subscription-container">
           <h1>Select Your Plan</h1>
@@ -206,14 +170,14 @@
         <div class="bundle-wrapper">
           <div class="bundle-selection">
             <div class="bundle-option">
-              <img src="../Tesa_Project_Hulu_Clone/Learn-More/images/disney.png" alt="Bundle Plan" />
+              <img src="Learn-More/images/disney.png" alt="Bundle Plan" />
               <p style="font-size: 13px; margin: 10px">
                 Disney+, Hulu, Max Bundle (With Ads)
               </p>
               <button>SELECT</button>
             </div>
             <div class="bundle-option">
-              <img src="../Tesa_Project_Hulu_Clone/Learn-More/images/disney.png" alt="Bundle Plan" />
+              <img src="Learn-More/images/disney.png" alt="Bundle Plan" />
               <p style="font-size: 13px; margin: 10px">
                 Disney+, Hulu, Max Bundle (No Ads)
               </p>
@@ -324,46 +288,6 @@
         </div>
       </section>
       <div>
-        <div class="faq-container">
-            <section class="faq">
-                <h2 class="faq-header">Any Questions?</h2>
-
-                <article style="border: none;" class="faq-item">
-                <p class="faq-question">What is the Disney+, Hulu, Max Bundle and how much does it cost?</p>
-                <span class="faq-icon">+</span>
-                </article>
-
-                <article class="faq-item">
-                <p class="faq-question">What content can I watch with the Disney+, Hulu, Max Bundle?</p>
-                <span class="faq-icon">+</span>
-                </article>
-
-                <article class="faq-item">
-                <p class="faq-question">Can I watch Max and Hulu content in the same app?</p>
-                <span class="faq-icon">+</span>
-                </article>
-
-                <article class="faq-item">
-                <p class="faq-question">Once I add Max to my Hulu account, how do I activate my Max app account?</p>
-                <span class="faq-icon">+</span>
-                </article>
-
-                <article class="faq-item">
-                <p class="faq-question">Can I cancel my subscription at any time?</p>
-                <span class="faq-icon">+</span>
-                </article>
-
-                <article class="faq-item">
-                <p class="faq-question">Is there a free trial for the Disney+, Hulu, Max Bundle?</p>
-                <span class="faq-icon">+</span>
-                </article>
-
-                <article class="faq-item">
-                <p class="faq-question">If I have an existing Hulu subscription, can I still sign up for the Disney+, Hulu, Max Bundle through Hulu?</p>
-                <span class="faq-icon">+</span>
-                </article>
-            </section>
-        </div>
         <footer>
         <section class="footer-top">
             <nav class="footer-column">
